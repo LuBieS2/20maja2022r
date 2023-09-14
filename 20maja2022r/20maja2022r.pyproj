@@ -23,6 +23,14 @@
   <ItemGroup>
     <Compile Include="_20maja2022r.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ewidencja.txt" />
+    <Content Include="klasa.txt" />
+    <Content Include="liczby.txt" />
+    <Content Include="przyklad.txt" />
+    <Content Include="soki.txt" />
+    <Content Include="uczen.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in

@@ -16,7 +16,7 @@ def prime(a):
         else:
             return True
 
-file=open("liczby.txt", "r")
+file=open("orzyklad.txt", "r")
 numbers= list(map(str.strip, file.readlines()))
 
 #4.1
