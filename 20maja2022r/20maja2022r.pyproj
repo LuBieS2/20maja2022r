@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da9cd9d1-56df-457a-94cb-e13bf1e9477e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_20maja2022r.py</StartupFile>
+    <StartupFile>1_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1_2.py" />
     <Compile Include="_20maja2022r.py" />
   </ItemGroup>
   <ItemGroup>

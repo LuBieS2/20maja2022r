@@ -31,8 +31,9 @@ digits_last_and_first=[]
 for i in digits:
     if i[0] == i[-1]:
         digits_last_and_first.append("".join(i))
-#print(digits_last_and_first)
-#print(len(digits_last_and_first))
+print("#1")
+print(digits_last_and_first)
+print(len(digits_last_and_first))
 #4.2
 primen=[]
 highest_primes=0
@@ -40,7 +41,7 @@ n_hp=""
 h_pu=0
 n_hpu=""
 for i in numbers:
-    print(i)
+    #print(i)
     c=i
     while int(i)>1:    
         for x in range(1, int(i)+1):
@@ -57,8 +58,9 @@ for i in numbers:
     if len(primenu)>int(h_pu):
       h_pu=len(primenu)
       n_hpu=c
-    print(primen)
+    #print(primen)
     primen=[]        
+print('#2')
 print(highest_primes, n_hp)
 print(h_pu, n_hpu)
 #4.3
@@ -76,8 +78,8 @@ for i in numbers:
                                 if j%h==0 and j>h:
                                     fives.append([h, j, n, g, i])
                     threes.append([n, g ,i])
-
-print("5",fives)
-print("3",threes)
+print('#3')
+#print("5",fives)
+#print("3",threes)
 print(len(fives))
 print(len(threes))
